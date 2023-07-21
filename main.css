@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*MENUUUU*/
+header {
+    background-color: #182c61;
+    color: yellow;
+    padding: 16px 0;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header nav li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 8px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*FIM MENUUU*/
+
+
+/*CONTAINER GERAL*/
+.container  {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+/*FIM CONTAINER GERAL*/
+
+
+
+/*CONTEUDO ARTIGOS*/
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#promocao h2,
+#promocao h3,
+#promocao p {
+    color: yellow;
+}
+
+#promocao p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#promocao h2,
+#promocao h3 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+#promocao h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+#promocao h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+#promocao img {
+    width: 80%;
+}
+
+#promocao article {
+    padding: 60px 60px;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+#promocao .container {
+    background-color: #182c61;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+/*FIM CONTEUDO ARTIGOS*/
+
+
+
+/*SOBRE NOS*/
+#sobre .container {
+    background-color: #182c61;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+#sobre .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#sobre img {
+    width: 50%;
+    margin: 30px 30px;
+}
+
+#sobre ul img {
+    width: 100px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#sobre ul li{
+    display: inline;
+}
+
+#sobre h2, h3, ul {
+    margin: 30px 30px;
+}
+
+#sobre h2, h3 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    margin: 0;
+    color: yellow;
+}
+
+#sobre h3 {
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    font-size: 19px;
+    margin: 0;
+}
+
+#sobre h2 {
+    margin-top: 30px;
+}
+
+#sobre ul {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#sobre h2,
+#contatos h2,
+#promocao h2 {
+    font-size: 35px;
+}
+/*FIM SOBRE NOS*/
+
+
+/*CONTATOS*/
+#contatos .container {
+    background-color: #182c61;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 30px 30px;
+    margin-bottom: 35px;
+}
+
+#contatos h2{
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+#contatos{
+    color: yellow;
+}
+
+.conta-m {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.social-links img{
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+form button:hover {
+    background-color: rgb(121, 121, 5);
+}
+
+input:focus, textarea:focus {
+    outline-color: yellow;
+}
+/*FIM CONTATOS*/
+
+
+/*RODE PE*/
+footer {
+    background-color: #182c61;
+    color: yellow;
+    padding: 16px 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*FIM RODA PE*/
